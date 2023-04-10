@@ -17,7 +17,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                dir('test') {
+                mkdir('test') {
                     bat 'python e2e.py'
                 }
             }
