@@ -54,7 +54,6 @@ def choose_difficulty(game_choice):
 
         play_again = input("Do you want to play again? (y/n) ")
         if play_again.lower() == "y":
-            game_choice = load_game()
 
         else:
             print("Thanks for playing WOG, see you next time")
