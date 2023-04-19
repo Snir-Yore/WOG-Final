@@ -1,8 +1,6 @@
 from MemoryGame import play as play_memory_game
 from GuessGame import play as play_guess_game
 from CurrencyRouletteGame import play as play_currency_game
-# from Utils import screen_cleaner
-# from MainScores import score_server
 from Score import *
 
 def welcome():
