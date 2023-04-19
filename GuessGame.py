@@ -7,8 +7,6 @@ def generate_number(difficulty):
 def get_guess_from_user(difficulty):
     difficulty = int(difficulty)
     guess = input(f"Guess a number between 1 and {difficulty} : ")
-    # while not guess.isdigit() or int(guess) < 1 or int(guess) > difficulty:
-    #     guess = input(f"Invalid input. Please guess a number between 1 and {difficulty}: ")
     return int(guess)
 
 def compare_results(secret_number, guess):
